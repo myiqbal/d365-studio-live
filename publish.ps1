@@ -2,7 +2,7 @@
 # Usage (PowerShell):  .\publish.ps1
 # Optional: .\publish.ps1 -Html "C:\path\to\D365-Design-Studio.html"
 param(
-  [string]$Html = "C:\Users\muham\Business Analyst Software\d365-design-studio\release\D365-Design-Studio.html",
+  [string]$Html = "C:\Users\muham\Business Analyst Software\d365-design-studio-main\release\D365-Design-Studio.html",
   [string]$Repo = "C:\Users\muham\Business Analyst Software\d365-studio-live"
 )
 if (-not (Test-Path $Html)) { Write-Host "Cannot find $Html"; exit 1 }
